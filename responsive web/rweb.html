@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="widht=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="rweb.css">
+	<style> @import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Caladea:wght@700&family=Poiret+One&family=Poppins:wght@500&family=Roboto&family=Rokkitt&family=Rubik+Vinyl&family=Source+Sans+Pro&family=Work+Sans&display=swap'); </style>
+	<script src="https://kit.fontawesome.com/f299ec9310.js" crossorigin="anonymous"></script>
+	 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+			<nav>
+				<ul id="menuList">
+					<li><a href="">HOME</a></li>
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#contact">CONTACT</a></li>
+					<li><a href="#more">MORE</a></li>
+				</ul>
+			</nav>
+			<img src="asset/icons.png" class="menu-icon" onclick="togglemenu()">
+		</div>
+
+		<div class="row" data-aos="fade-up"data-aos-duration="2000" >
+			<div class="col-1">
+				<p >Hello,I am a <br> student who is <br><font color="
+				#E2e5e6">studying and interested <br>in web development</font></p>
+			</div>
+			<div class="col-2">
+				<img src="asset/i.png" class="logo">
+			</div>
+		</div>
+	</div>
+
+	<div id="about" class="a-container" data-aos="fade-down" data-aos-duration="2000">
+		<div class="a-text">
+			<img src="asset/ft1.jpg" align="right" hspace="10">
+			<h2>Who am I?</h2>
+			<P>I am an 18 year old self taught Digital Web Designer. My focus lies on the User Interface and User Experience Design of mobile apps. learning web developer is now one of my hobbies.</P>
+			<p>Now I am continuing my education at Pamulang University majoring in information systems.</p>
+			<p class="history">my school history</p>
+			<p>2010 - 2016 public elementary school sarakan III</p>
+			<p>2016 - 2019 state junior high school I sepatan</p>
+			<p>2019 - 2022 vocational high school 2, Tangerang</p>
+		</div>
+		
+	</div>
+	<div id="contact" class="c-container" data-aos="zoom-in-right" data-aos-duration="2000">
+		<div class="c-text">
+			<h2 class="c">CONTACT</h2>
+			<P>If you want to ask something or just want <br>to know more deeply, please contact the <br>following address. and please do not<br> post sensitive content in the form <br>of violence or pornography.</P>
+			<a href="https://api.whatsapp.com/send?phone=6285888230945&text=Hello Firman Ganteng"><i class="fa-brands fa-whatsapp"></i></a>
+			<a href="https://www.instagram.com/firmanrzk_/"><i class="fa-brands fa-instagram"></i></a>
+		</div>
+	</div>
+	<div id="more" class="m-container" data-aos="zoom-in-down" data-aos-duration="2000">
+		<div class="m-text">
+			<h2 class="nama">firmanrzk</h2>
+			<p>Sepatan</p>
+			<p>Tangerang, Banten</p>
+			<p>Indonesia</p>
+			<p>Email : firmanrizkiaditya70@gmail.com</p>
+			<h2 class="sosial">My Sosial Media</h2>
+			<ul>
+				<li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+				<li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+				<li><a href=""><i class="fa-brands fa-tiktok"></i></a></li>
+				<li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+			</ul>
+			<h2 class="thx">thank you for visiting, sorry this website is far from perfect, once again I am very grateful, I hope you are always healthy and happy</h2>
+		</div>
+	</div>
+
+	<script>
+		var menuList = document.getElementById('menuList');
+
+		menuList.style.maxHeight = "0px";
+
+		function togglemenu(){
+			if(menuList.style.maxHeight == "0px")
+				{
+					menuList.style.maxHeight = "130px";
+				}
+			else{
+				menuList.style.maxHeight = "0px";
+			}
+		}
+
+	</script>
+	  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
